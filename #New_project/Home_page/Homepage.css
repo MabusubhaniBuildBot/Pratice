@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: #FFFF;
+    font-size: 15px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: 15px;
+}
+
+span {
+    color: #00FF00;
+    font-size: 20px;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #D8D8D8;
+    width: 98.5%;
+    top: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    float: inline-end;
+}
+
+.navbar ui li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar ui li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ui li a :hover {
+    color: #00FF00;
+}
+
+.card-items img {
+    width: 200px;
+    height: 100px;
+}
+
+.card-items {
+    display: inline-block;
+    width: 200px;
+
+    padding: 5px;
+    margin: 50px;
+    background-color: #00FF00;
+
+}
+
+.item-name {
+    text-align: center;
+    color: black;
+}
+
+.bt {
+    background-color: #01DFD7;
+}
+
+.bt a {
+    text-decoration: none;
+    color: black;
+}
+
+.bt a :hover {
+    color: #FFFFFF;
+}
+
+.card-contant {
+    margin: 1%;
+    margin-top: 3%;
+}
+
+.homepage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+}
+
+.content {
+    width: 70%;
+    color: #00FF00;
+    padding: 70px;
+    font-size: 18px;
+}
+
+.form-content {
+    width: 50%;
+    color: #00FF00;
+    padding: 90px;
+    font-size: 20px;
+}
+
+.form-content {
+    padding: auto;
+    margin: 100px;
+    padding: 30px;
+}
+
+.form-content img {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.bt a {
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: #00FF00;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}

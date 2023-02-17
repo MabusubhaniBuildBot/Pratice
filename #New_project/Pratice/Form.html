@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Pratice/form.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <div id="submit-form">
+            <form onsubmit="myfun(event)">
+                <lable>Employee name:- </lable>
+                <input type="text" name="fname" id="f_name">
+                <br>
+                <lable>Employee ID:- </lable>
+                <input type="text" name="lname" id="l_name">
+                <br>
+                <lable>Employee number:- </lable>
+                <input type="number" name="numb" id="numb">
+                <br>
+                <button> submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+    <div>
+        <div id="Employee">
+            <table id="table">
+                <th id=""><i>Employee Name</i></th>
+                <th><i>Employee ID</i></th>
+                <th><i>Employee number</i></th>
+                <tr id="row">
+                    <td>
+                    
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        function myfun(event) {
+            event.preventDefault();
+            /*
+            var f_name = document.getElementById("f_name").value;
+            var l_name = document.getElementById("l_name").value;
+            var numb = document.getElementById("numb").value;
+            document.getElementById("col1").innerHTML = f_name;
+            document.getElementById("col2").innerHTML = l_name;
+            document.getElementById("col3").innerHTML = numb;
+            */
+
+            var f_name = document.getElementById("f_name").value;
+            var l_name = document.getElementById("l_name").value;
+            var numb = document.getElementById("numb").value;
+
+            const node1 = document.createElement("td");
+            const node2 = document.createElement("td");
+            const node3 = document.createElement("td");
+
+            const textnode = document.createTextNode(f_name);
+            const textnode1 = document.createTextNode(l_name);
+            const textnode2 = document.createTextNode(numb);
+
+            node1.appendChild(textnode);
+            node2.appendChild(textnode1);
+            node3.appendChild(textnode2);
+
+            document.getElementById("row").appendChild(node1);
+            document.getElementById("row").appendChild(node2);
+            document.getElementById("row").appendChild(node3);
+}
+
+
+
+    </script>
+</body>
+
+</html>

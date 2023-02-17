@@ -1,0 +1,340 @@
+body {
+    background-color: black;
+    color: #FFFF;
+    font-size: 15px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: 15px;
+}
+
+span {
+    color: #00FF00;
+    font-size: 20px;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #D8D8D8;
+    width: 98.5%;
+    top: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    float: inline-end;
+}
+
+.navbar ui li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar ui li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ui li a :hover {
+    color: #00FF00;
+}
+
+
+
+.homepage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.content {
+    width: 70%;
+    color: #00FF00;
+    padding: 70px;
+    font-size: 18px;
+}
+
+.form-content {
+    width: 50%;
+    color: #00FF00;
+    padding: 90px;
+    font-size: 20px;
+}
+
+.form-content {
+    padding: auto;
+    margin: 100px;
+    padding: 30px;
+}
+
+.form-content img {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: #00FF00;
+}
+
+.apple-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.alignImg {
+    text-align: center;
+}
+
+.apple-models img {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.apple-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.apple-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+
+
+/*    DELL LAPTOPS   */
+.Dell-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.Dell-models img {
+    width: 100px;
+    height: 100px;
+}
+
+.Dell-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.Dell-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+
+/*//ASUS CSS///*/
+.asus-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.asus-models img {
+    width: 150px;
+    height: 100px;
+}
+
+.asus-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.asus-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+/* ACER LAPTOP CSS*/
+
+.acer-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.acer-models img {
+    width: 125px;
+    height: 100px;
+}
+
+.acer-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.acer-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+
+/* HP LAPTOP CSS*/
+
+.hp-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.hp-models img {
+    width: 125px;
+    height: 100px;
+}
+
+.hp-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.hp-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* INFINIX LAPTOP CSS*/
+
+.infinix-models {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 #FBEFF8;
+    transition: 0.3s;
+    padding: 30px;
+    width: 20%;
+    margin: 50px;
+}
+
+.infinix-models img {
+    width: 150px;
+    height: 100px;
+}
+
+.infinix-models img:hover {
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(2.0);
+}
+
+.infinix-models:hover{
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+dl a {
+    text-decoration: none;
+    color: #088A85;
+}
+
+dl a:hover {
+    color: #D8D8D8;
+}
+
+button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+button a:hover {
+    color: #000000;
+}
+
+.ad {
+    text-decoration: none;
+    color: #00FF00;
+}
+
+.ad:hover{
+    color: #088A85;
+}
+
+footer {
+    background-color: #00FF00;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
