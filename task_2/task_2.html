@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_2</title>
+</head>
+
+<body>
+    <form onsubmit="myfun(event)">
+        <lable>Employee name:- </lable>
+        <input type="text" name="fname" id="Fname" required
+            oninvalid="this.setCustomValidity('Please Enter first Name')" oninput="this.setCustomValidity('')">
+        <br>
+        <br>
+        <br>
+        <lable>last name:- </lable>
+        <input type="text" name="lname" id="Lname" required oninvalid="this.setCustomValidity('Please Enter Last Name')"
+            oninput="this.setCustomValidity('')">
+        <br>
+        <br>
+        <br>
+        <lable>Role:-</lable>
+        <input type="text" name="role" id="role" required oninvalid="this.setCustomValidity('Please Enter password')"
+            oninput="this.setCustomValidity('')">
+        <br>
+        <br>
+        <br>
+        <lable>salary:-</lable>
+        <input type="number" name="number" id="salary" required
+            oninvalid="this.setCustomValidity('Please Enter salary')" oninput="this.setCustomValidity('')">
+        <br>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="button" value="Reset" onclick="reset()">
+    </form>
+    <br>
+    <br>
+    <br>
+    <div id="save-content">
+        <table style="border: 2px solid black;">
+            <th>First name</th>
+            <th>last name</th>
+            <th>role</th>
+            <th>salary</th>
+            <tr style="border:1px solid black;">
+                <td id="col1"></td>
+                <td id="col2"></td>
+                <td id="col3"></td>
+                <td id="col4"></td>
+            </tr>
+        </table>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script src="task_2.js" type="text/javascript"></script>
+</body>
+
+</html>
